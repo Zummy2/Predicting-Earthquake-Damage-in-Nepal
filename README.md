@@ -2,10 +2,7 @@
 This project uses data from Open Data Nepal to build a model to predict building damage from the Nepal 2015 Earthquake. The goal is to create a model that when given the characteristics of a builing can accurately predict if the building will suffer severe damage or not in a similar type of earthquake.
 
 # Data
-The data used in this project is available from [Open Data Nepal](https://opendatanepal.com/). It is stored in an SQLite database 
-
-
-The data dictionary for each table is included in the 'data' folder.
+The data used in this project is available from [Open Data Nepal](https://opendatanepal.com/). It is stored in an SQLite database. 
 
 # Methods
 This is a classification task, which means that the goal is to predict a categorical outcome variable based on a set of input features. In this case, the outcome variable is the level of damage to a building following the Nepal 2015 earthquake, which can take on one of two values: severely damaged or not severely damaged.
